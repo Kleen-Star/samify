@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: 248 248 248;
+  --color-card: 255 255 255;
+  --color-fg: 20 20 20;
+  --color-primary: 110 24 40;
+  --color-accent: 201 162 39;
+}
+.dark {
+  --color-bg: 12 12 12;
+  --color-card: 28 28 30;
+  --color-fg: 245 245 240;
+  --color-primary: 150 40 60;
+  --color-accent: 212 175 55;
+}
+body { @apply bg-bg text-fg antialiased; }
